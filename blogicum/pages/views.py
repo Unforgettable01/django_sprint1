@@ -6,5 +6,5 @@ def about(request):
     return render(request, template)
 
 def rules(request):
-    template = 'pages/reles.html'
+    template = 'pages/rules.html'
     return render(request, template)
